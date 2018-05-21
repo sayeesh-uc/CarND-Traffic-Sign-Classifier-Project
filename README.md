@@ -20,13 +20,13 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [hist]: hist.png "Histogram"
-[color]: color.jpg "sample color image"
-[bandw]: bandw.jpg "gra scaled image"
-[00000_00014]: ./samples/00000_00014.png "Traffic Sign 1"
-[00000_00023]: ./samples/00000_00023.png "Traffic Sign 2"
-[00001_00017]: ./samples/00001_00017.png "Traffic Sign 3"
-[00004_00019]: ./samples/00004_00019.png "Traffic Sign 4"
-[00005_00000]: ./samples/00005_00000.png "Traffic Sign 5"
+[color]: color.png "sample color image"
+[bandw]: bandw.png "gray scaled image"
+[00000_00014]: ./samples/00000_00014.jpg "Traffic Sign 1"
+[00000_00023]: ./samples/00000_00023.jpg "Traffic Sign 2"
+[00001_00017]: ./samples/00001_00017.jpg "Traffic Sign 3"
+[00004_00019]: ./samples/00004_00019.jpg "Traffic Sign 4"
+[00005_00000]: ./samples/00005_00000.jpg "Traffic Sign 5"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
