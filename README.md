@@ -19,14 +19,14 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: hist.png "Histogram"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[hist]: hist.png "Histogram"
+[color]: color.jpg "sample color image"
+[bandw]: bandw.jpg "gra scaled image"
+[00000_00014]: ./samples/00000_00014.png "Traffic Sign 1"
+[00000_00023]: ./samples/00000_00023.png "Traffic Sign 2"
+[00001_00017]: ./samples/00001_00017.png "Traffic Sign 3"
+[00004_00019]: ./samples/00004_00019.png "Traffic Sign 4"
+[00005_00000]: ./samples/00005_00000.png "Traffic Sign 5"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -55,7 +55,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the training data is distributed.
 
-![alt text][image1]
+![alt text][hist]
 
 ### Design and Test a Model Architecture
 
@@ -65,8 +65,8 @@ As a first step, I decided to convert the images to grayscale because I beleive 
 
 Here is an example of a traffic sign image before and after grayscaling.
 
-![alt text][color.png]
-![alt text][bandw.png]
+![alt text][color]
+![alt text][bandw]
 
 
 
@@ -127,8 +127,8 @@ As my code was theoretically correct, was doing a lot of trial and error on what
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][00000_00014.jpg] ![alt text][00000_00023.jpg] ![alt text][00001_00017.jpg] 
-![alt text][00004_00019.jpg] ![alt text][00005_00000.jpg]
+![alt text][00000_00014] ![alt text][00000_00023] ![alt text][00001_00017] 
+![alt text][00004_00019] ![alt text][00005_00000]
 
 The 3rd image might be difficult to classify because there was not enough data to train on, I guess. But looking at the probabilities, the second guess was correct.
 
